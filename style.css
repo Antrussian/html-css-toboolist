@@ -3,9 +3,7 @@
     padding: 0;
     box-sizing: border-box;
 }
-*{
-    background-color: rgb(217, 215, 215);
-}
+
 
 .header{
     height: 100px;
@@ -36,7 +34,7 @@ h1{
 
 main{
     background-color: rgb(241, 241, 241);
-    height: 400px;
+    height: 720px;
     text-align: center;
     
     
@@ -46,7 +44,7 @@ main{
 .container-todo{
     display: inline-block;
     background-color: white;
-    height: 900px;
+    height: 650px;
     width: 900px;
    margin-top: 50px;
    border-radius: 5px;
@@ -87,35 +85,65 @@ margin-left: 50px;
 }
 
 hr {
-    color: rgba(217, 215, 215, 0.019);
+    color: rgba(217, 215, 215, 0.092);
    
 }
 .lista {
     background-color: white;
     margin-left: 70px;
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 15px;
     margin-top: 30px;
+    list-style: none;
+    
 }
+
+
 
 .elenco-lista {
     background-color: white;
-    margin-top: 15px;
+    margin-top: 20px;
+    list-style: none;
+    vertical-align: 10px;
+    line-height: 35px;
+    
 }
 
 
-li {
+
+.titolo-lista {
     background-color: white;
-    font-weight: bold;
-    
-    
+    font-weight: bold;    
 }
+
+
+.arrow {
+    background-color: white;
+    display: inline-block;
+}
+
+
+
 
 .done {
     color: green;
     background-color: white;
     border: 1px solid green;
     border-radius: 50%;
+    width: 25px;
+    height: 25px;
+    display: inline-block;
+    text-align: center;
+    line-height: 21px;
     
+    
+}
+
+.todo {
+    color: rgb(128, 0, 0);
+    background-color: white;
+    border: 1px solid rgb(128, 0, 0);
+    border-radius: 50%;
     width: 25px;
     height: 25px;
     display: inline-block;
@@ -126,13 +154,7 @@ li {
 }
 
 
-
-.da-fare ::before {
-
-}
-
-
-.task-default {
+.task {
     background-color: rgb(7, 123, 162);
     height: 5px;
     width: 5px;
@@ -142,7 +164,45 @@ li {
     border-radius: 15px;
     color: white;
     font-size: 10px;
+   
     
 }
+
+
+.default {
+    background-color: rgb(7, 123, 162);
+}
+
+
+.goal {
+    background-color: rgb(121, 7, 162);
+    height: 5px;
+    width: 5px;
+    padding: 5px 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-radius: 15px;
+    color: white;
+    font-size: 10px;
+ 
+}
+
+
+.recruiting {
+    background-color: rgb(0, 224, 138);
+}
+
+.mobile {
+    background-color: rgb(224, 153, 0);
+}
+
+.sales {
+    background-color: rgb(116, 240, 86);
+}
+
+.website {
+    background-color: rgb(223, 43, 226);
+}
+
 
 
